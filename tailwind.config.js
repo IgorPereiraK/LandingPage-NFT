@@ -4,7 +4,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        'primary': '#06061a'
+        'primary': '#06061a',
+        'secundary': '#2eb1a3',
+        'pink': '#e8546b',
+        'purple': '#ac3cf6',
+      },
+      rotate: {
+        '15': '15deg',
       }
     },
   },

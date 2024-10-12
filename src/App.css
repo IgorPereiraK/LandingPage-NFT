@@ -2,10 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #06061a;
   color: #f3f3f3;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+.bg {
+  background: linear-gradient(150deg, rgba(172, 60, 246, 0.2), #06061a);
 }
