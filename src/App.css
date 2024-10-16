@@ -9,6 +9,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: #06061a;
+}
+
 .bg {
   background: linear-gradient(150deg, rgba(172, 60, 246, 0.2), #06061a);
 }
