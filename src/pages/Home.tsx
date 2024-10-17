@@ -1,4 +1,5 @@
 import ButtonPink from "../components/ButtonPink";
+import ContainerData from "../components/ContainerData";
 import ContainerInfo from "../components/ContainerInfo";
 import Navbar from "../components/Navbar";
 
@@ -6,7 +7,7 @@ export default function Home() {
     return (
         <div className="bg">
             <header className="flex justify-between items-center p-5 max-w-[1500px] m-auto">
-                <span className="text-2xl font-semibold">NFTLandingPage</span>
+                <h1 className="text-2xl font-semibold">NFTLandingPage</h1>
                 <Navbar />
                 <button className="block md:hidden">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="h-7 w-7">
@@ -26,14 +27,15 @@ export default function Home() {
                     <img className="transform rotate-15 w-[90%] max-w-[400px] mx-auto lg:max-w-[550px]" src="src/assets/fada.png" alt="Bruxinha NFT"/>
                 </div>
             </section>
-            <section>
+            <section className="pt-8 max-w-7xl mx-auto pb-80">
                 <div className="w-full h-0.5 bg-slate-50 opacity-15"></div>
                 <div className="flex flex-wrap gap-6 mt-12 px-5">
-                    <ContainerInfo title="1M+" description="Usuários ativos"/>
-                    <ContainerInfo title="R$115M" description="Já ganhos"/>
-                    <ContainerInfo title="4.8" description="Avalições médias"/>
-                    <ContainerInfo title="200+" description="Coleções"/>
+                    <ContainerData title="1M+" description="Usuários ativos"/>
+                    <ContainerData title="R$115M" description="Já ganhos"/>
+                    <ContainerData title="4.8" description="Avalições médias"/>
+                    <ContainerData title="200+" description="Coleções"/>
                 </div>
+                <ContainerInfo />
             </section>
         </div>
     )
