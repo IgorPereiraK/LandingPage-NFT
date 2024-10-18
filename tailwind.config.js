@@ -8,6 +8,8 @@ export default {
         'secundary': '#2eb1a3',
         'pink': '#e8546b',
         'purple': '#ac3cf6',
+        'semi-black': '#131325',
+        'card-gray': '#25283d'
       },
       rotate: {
         '15': '15deg',
